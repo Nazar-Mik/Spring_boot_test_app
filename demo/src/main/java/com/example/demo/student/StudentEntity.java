@@ -2,18 +2,17 @@ package com.example.demo.student;
 
 import java.time.LocalDate;
 
-public class Student {
-
+public class StudentEntity {
     private Long id;
     private String name;
     private Integer age;
     private LocalDate dob;
     private String email;
 
-    public Student() {
+    public StudentEntity() {
     }
 
-    public Student(Long id,
+    public StudentEntity(Long id,
                    String name,
                    Integer age,
                    LocalDate dob,
@@ -25,7 +24,7 @@ public class Student {
         this.email = email;
     }
 
-    public Student(String name,
+    public StudentEntity(String name,
                    Integer age,
                    LocalDate dob,
                    String email) {
