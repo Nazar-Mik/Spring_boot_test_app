@@ -18,7 +18,6 @@ public class StudentService {
                         LocalDate.of(2000, Month.JANUARY,5),
                         "mariana@22.com"
                 )
-                
         );
     }
 }
