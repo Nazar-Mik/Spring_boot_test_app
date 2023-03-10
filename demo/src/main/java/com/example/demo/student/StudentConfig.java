@@ -29,6 +29,13 @@ public class StudentConfig {
                     "Alex@enmail.com"
             );
 
+            StudentEntity ron = new StudentEntity(
+                    "Ron",
+                    37,
+                    LocalDate.of(2003, Month.DECEMBER,11),
+                    "Ron@enmail.com"
+            );
+
             repository.saveAll(
                     List.of(mariam, alex)
             );
